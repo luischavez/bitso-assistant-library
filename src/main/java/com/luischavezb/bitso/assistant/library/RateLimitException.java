@@ -1,0 +1,23 @@
+package com.luischavezb.bitso.assistant.library;
+
+/**
+ *
+ * @author luischavez
+ */
+public class RateLimitException extends RuntimeException {
+
+    public RateLimitException() {
+    }
+
+    public RateLimitException(String message) {
+        super(message);
+    }
+
+    public RateLimitException(String message, Throwable cause) {
+        super(message, cause);
+    }
+
+    public RateLimitException(Throwable cause) {
+        super(cause);
+    }
+}
